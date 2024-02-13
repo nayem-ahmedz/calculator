@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0; background-color: black;
+}
+header{
+    color: black;
+}
+section{
+    max-width: 1400px; margin: auto;
+}
+#calc{
+    width: 350px; margin: auto; background-color: #eee; padding: 40px; border-radius: 10px;
+}
+#display{
+    display: block; width: 100%; padding: 10px; height: 60px; text-align: right; font-size: 16px; border: 1px solid #aaa; border-radius: 5px;
+}
+#cross-section{
+    text-align: right;
+}
+#backspace{
+    color: red; font-size: 16px; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 5px;
+}
+#backspace:hover{
+    background-color: red; color: white;
+}
+#interface{
+    margin: 20px auto;
+}
+#interface button{
+    display: inline-block; margin: 5px; padding: 10px; width: 54px; height: 54px; background-color: rgba(0, 0, 0, 0.1); border-radius: 50%; border: none; font-size: 18px; cursor: pointer;
+}
+#interface button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#clear{
+    color: red;
+}
+#brackets, #modulas, #division, #multiply, #minus, #plus{
+    color: green;
+}
+#interface #equal{
+    background-color: green; color: white;
+}
+footer{
+    color: black;
+}
